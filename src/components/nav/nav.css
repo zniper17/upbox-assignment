@@ -1,0 +1,77 @@
+.nav{
+    height: 101px;
+   width: 100%;
+ 
+    }
+.nav-box{
+      display: flex;
+      flex-direction: row;
+}
+.logo{
+    width: 56px;
+    height: 56px;
+    padding-top: 16px;
+    padding-left: 167px;
+}
+.brand-name{
+    width: 149px;
+    height: 33px;
+    padding-left: 16px;
+    padding-top: 27px;
+    padding-bottom: ;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: 0.28em;
+}
+
+.nav-option{
+    padding-left: 50%;
+    padding-top: 35px;
+}
+.nav-option > a{
+    font-family: "DM Sans";
+    color: #000000;
+font-style: bold;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.16em;
+    padding-right: 40.5px;
+    cursor: pointer;
+}
+.nav-option > a:hover{
+    color: var(--color-pink);
+    transition: var(--transition);
+}
+.nav-btn{
+ margin-top: 26px;
+    width: 124px;
+height: 37px;
+    background: #FFFFFF;
+border: 2px solid #4A4A4A;
+box-sizing: border-box;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.12em;
+}
+@media screen and (max-width: 1024px){
+    .nav-option{
+        
+        padding-left: 400px;
+        font-size: 10px;
+line-height: 13px;
+letter-spacing: 0.16em;
+  padding-right: 75px;
+    }
+    
+    
+    .logo{
+        padding-left: 40px;
+    }
+}

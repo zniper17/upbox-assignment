@@ -1,0 +1,40 @@
+.intro{
+    padding: 18px;
+}
+.container-intro{
+    background-color: var(--color-blue);
+  
+    height: 545px;
+    display:flex;
+
+}
+.right-intro{
+padding-top: 105px;
+padding-left: 111px;
+
+}
+.para{
+    width: 473px;
+height: 96px;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0.01em;
+    font-family: 'DM Sans';
+    padding-top: 19px;
+    font-style: normal;    
+}
+.right-intro > button{
+    margin-top: 30px;
+    width: 183px;
+height: 61px;
+background: #FFFFFF;
+    border: 4px solid #EF8094;
+box-sizing: border-box;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0.12em;
+}
+.left-intro{
+    padding-left: 300px;
+    margin-right: 0;
+}

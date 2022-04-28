@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=DM+Serif+Display&family=DM+Serif+Text&display=swap');
+
+:root{
+    --color-white:#FFFFFF;
+    --color-blue:#F5F8FF;
+    --color-black:#000000;
+    --color-pink:#EF8094;
+    --container-width-lg: 85%;
+    --container-width-md: 200%;
+    --container-width-sm: 350%;
+  --transition: all 400ms ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+  body{
+    font-family: 'DM Sans', sans-serif;
+    background:var(--color-white);
+    color: #000000;
+
+  }
+.container{
+    width: var(--container-width-lg);
+  margin: 0 auto;
+  
+}
+div> 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+div > h1{
+  font-family: 'DM Serif Display';  
+    font-size: 48px;
+    line-height: 56px;
+}
+div > p{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  
+}
+a{
+  color: #000000;
+  text-decoration: none;
+}
+a :hover{
+  color: var(--color-pink);
+}
+.btn{
+  font-family: 'DM Sans';
+  border-radius: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 600px){
+  .container{
+    width: var(--container-width-sm);
   }
 }
