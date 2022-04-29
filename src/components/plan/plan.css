@@ -10,7 +10,7 @@
     
     
     
-    padding-left: 300px;
+    padding-left: 500px;
     padding-right: 85px;
     padding-top: 45px;
 }
@@ -55,4 +55,32 @@ background-repeat: no-repeat;
 .container-plan > p{
     font-family: 'DM Sans';
     margin-top: 43px;
+    padding-bottom: 52px;
+}
+@media screen and (max-width: 1024px){
+    .container-plan{
+        width: 1024px;
+    }
+    .container-plan > h1{
+        width: 372px;
+height: 79px;
+margin: auto auto;
+padding-right: 50px;
+
+    }
+    .plans{
+        width:  1024px;
+        margin: 0 0 0 0; 
+        padding-right: 46px;
+    }
+    .plan-box{
+        width: 305.61px;
+height: 154.67px;
+border-radius: 6px;
+    }
+    .container-plan > p{
+        width: 540px;
+height: 51px;
+align-items: center;
+    }
 }

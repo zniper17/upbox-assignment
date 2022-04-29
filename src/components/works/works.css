@@ -1,0 +1,128 @@
+.container-works{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.work-detail-1{
+    padding-top: 50px;
+    padding-left: 60px;
+    display: flex;
+}
+
+.title-para{
+    display: flex;
+    flex-direction: column;
+    display: inline;
+}
+.title-para > p{
+    position:absolute;
+    padding-left: 42px;
+    margin-top: 250px;
+    width: 391px;
+height: 96px;   
+    font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.01em;
+}
+.work-title{
+    float: left;
+    padding-top: 129px;
+    padding-left: 35px;
+    margin-left: 0;
+    font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+}
+.pic1{
+    height: 485px;
+ 
+   
+}
+.pic3{
+    height: 511px;
+}
+.num{
+    color: #EF8094;
+    font-size: 220px;
+line-height: 56px;
+display: inline-flex;
+}
+.num1{
+    width: 97px;
+height: 124px;
+    position: absolute;
+   
+    margin-top: 100px;
+    margin-left: 25px;
+    
+}
+.work-detail-2{
+ 
+margin-left: 1000px;
+}
+.work-detail-2 > h2{
+    width: 511px;
+height: 101px;
+padding-left: 500px;
+margin-top: -70px;
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+}
+.work-detail-2 > p{
+    width: 409px;
+height: 96px;
+padding-left: 600px;
+margin-top: -20px;
+}
+.num2{
+    position: absolute;
+    margin-top:500px;
+    margin-left: 350px;
+}
+.work-detail-3{
+margin-top: 100px;
+margin-right: 700px;
+}
+.work-detail-3 > h2{
+    float: left;
+    display: inline;
+    font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+    margin-left: 1100px;
+    margin-top: -400px;
+}
+.work-detail-3 > p{
+    width: 453px;
+height: 96px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -320px;
+}
+.button-works{
+    margin-top: 100px;
+    margin-bottom:136px;
+}
+.works-button{
+    
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0.12em;
+    width: 284px;
+height: 61px;
+    background: #FFFFFF;
+border: 4px solid #EF8094;
+box-sizing: border-box;
+border-radius: 300px;
+}

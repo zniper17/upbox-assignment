@@ -38,3 +38,16 @@ letter-spacing: 0.12em;
     padding-left: 300px;
     margin-right: 0;
 }
+@media screen and (max-width: 1024px) {
+    .left-intro{
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 50px;
+    }
+    .left-intro > img{
+        padding-right: 10rem;
+    }
+    }
+    @media screen and (max-width: 400px){
+
+    }
